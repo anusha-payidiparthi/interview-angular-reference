@@ -278,3 +278,13 @@ Only retry **idempotent** operations and transient failures, with exponential ba
 12. **How do you implement retries?**
     Framework 7 `@Retryable`, Spring Retry, or Resilience4j, with backoff, only for idempotent calls
     and transient errors.
+
+## 8. Official docs
+
+- [Spring Framework cache abstraction](https://docs.spring.io/spring-framework/reference/integration/cache.html)
+- [Spring Boot caching (providers, configuration)](https://docs.spring.io/spring-boot/reference/io/caching.html)
+- [Spring Framework task execution and scheduling (`@Async`, `@Scheduled`, cron)](https://docs.spring.io/spring-framework/reference/integration/scheduling.html)
+- [Spring Boot task execution and scheduling (executors, virtual threads)](https://docs.spring.io/spring-boot/reference/features/task-execution-and-scheduling.html)
+- [Resilience features in Spring Framework 7 (`@Retryable`, `@ConcurrencyLimit`)](https://docs.spring.io/spring-framework/reference/core/resilience.html)
+- [JEP 444: Virtual threads](https://openjdk.org/jeps/444)
+- [ShedLock](https://github.com/lukas-krecan/ShedLock)

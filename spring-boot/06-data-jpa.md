@@ -428,3 +428,19 @@ is the alternative (XML/YAML/SQL changelogs, rollbacks).
 21. **How do you speed up bulk inserts?**
     JDBC batching (`batch_size`, `order_inserts`, sequence IDs), flush/clear periodically, or drop
     to `JdbcTemplate.batchUpdate`/`COPY`.
+
+## 17. Official docs
+
+- [Spring Data JPA reference](https://docs.spring.io/spring-data/jpa/reference/)
+- [Repository core concepts](https://docs.spring.io/spring-data/jpa/reference/repositories/core-concepts.html)
+- [Query methods (derived queries, `@Query`, `@Modifying`)](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html)
+- [Projections](https://docs.spring.io/spring-data/jpa/reference/repositories/projections.html)
+- [Specifications](https://docs.spring.io/spring-data/jpa/reference/jpa/specifications.html)
+- [Auditing](https://docs.spring.io/spring-data/jpa/reference/auditing.html)
+- [Locking](https://docs.spring.io/spring-data/jpa/reference/jpa/locking.html)
+- [Spring Boot: SQL databases (DataSource, JPA, `JdbcClient`)](https://docs.spring.io/spring-boot/reference/data/sql.html)
+- [Spring Boot how-to: data access](https://docs.spring.io/spring-boot/how-to/data-access.html) and
+  [database initialization (Flyway/Liquibase)](https://docs.spring.io/spring-boot/how-to/data-initialization.html)
+- [Spring Framework: `JdbcTemplate` and `JdbcClient`](https://docs.spring.io/spring-framework/reference/data-access/jdbc/core.html)
+- [Hibernate ORM documentation](https://docs.hibernate.org/orm/)
+- [Flyway documentation](https://documentation.red-gate.com/flyway)

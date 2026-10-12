@@ -158,3 +158,13 @@ for better Kotlin interop and static analysis (NullAway).
 9. **What is `@ServiceConnection`?**
    A Boot 3.1+ annotation that derives connection details (URL, credentials) from a Testcontainers
    container or Docker Compose service instead of hard-coding properties.
+
+## 6. Official docs
+
+- [Spring Boot 4.0 release notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Release-Notes)
+- [Spring Boot 4.0 migration guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.0-Migration-Guide)
+- [Spring Boot 3.0 migration guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide)
+- [Spring Boot 3.2 release notes (virtual threads, `RestClient`)](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.2-Release-Notes)
+- [Spring Boot 3.4 release notes (structured logging, `@MockitoBean`)](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.4-Release-Notes)
+- [Support timeline for each version](https://spring.io/projects/spring-boot/)
+- [OpenRewrite Spring Boot 3 migration recipes](https://docs.openrewrite.org/recipes/java/spring/boot3)

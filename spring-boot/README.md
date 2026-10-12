@@ -103,6 +103,8 @@ public class DemoApplication {
 `curl localhost:8080/hello?name=Spring` → `Hello, Spring`
 
 ## Official resources
+Each chapter ends with an **Official docs** section linking to the reference pages for that
+topic. General entry points:
 - Spring Boot reference: <https://docs.spring.io/spring-boot/>
 - Spring Framework reference: <https://docs.spring.io/spring-framework/reference/>
 - Spring guides (short task-focused tutorials): <https://spring.io/guides>

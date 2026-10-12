@@ -368,3 +368,16 @@ class OrderControllerSecurityTest {
 
 17. **How do you test secured endpoints?**
     `spring-security-test`: `@WithMockUser`, `with(jwt())`, `with(csrf())`, `with(user(...))` on MockMvc.
+
+## 15. Official docs
+
+- [Servlet security architecture (filter chain)](https://docs.spring.io/spring-security/reference/servlet/architecture.html)
+- [Authentication architecture](https://docs.spring.io/spring-security/reference/servlet/authentication/architecture.html)
+- [Username/password authentication and password storage](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/index.html)
+- [Authorizing HTTP requests](https://docs.spring.io/spring-security/reference/servlet/authorization/authorize-http-requests.html)
+- [Method security](https://docs.spring.io/spring-security/reference/servlet/authorization/method-security.html)
+- [OAuth2 overview](https://docs.spring.io/spring-security/reference/servlet/oauth2/index.html)
+- [OAuth2 resource server with JWT](https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html)
+- [CSRF](https://docs.spring.io/spring-security/reference/features/exploits/csrf.html)
+- [Testing with Spring Security](https://docs.spring.io/spring-security/reference/servlet/test/index.html)
+- [Spring Boot: Spring Security integration](https://docs.spring.io/spring-boot/reference/web/spring-security.html)

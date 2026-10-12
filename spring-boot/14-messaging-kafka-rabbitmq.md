@@ -295,3 +295,15 @@ need binder config.
 12. **How do you evolve message schemas?**
     Backward-compatible changes (add optional fields), schema registry with compatibility rules
     (Avro/Protobuf/JSON Schema), versioned event types.
+
+## 11. Official docs
+
+- [Spring Boot: Kafka support](https://docs.spring.io/spring-boot/reference/messaging/kafka.html)
+- [Spring for Apache Kafka reference](https://docs.spring.io/spring-kafka/reference/)
+- [Non-blocking retries (`@RetryableTopic`)](https://docs.spring.io/spring-kafka/reference/retrytopic.html)
+- [Apache Kafka documentation](https://kafka.apache.org/documentation/)
+- [Spring Boot: AMQP (RabbitMQ) support](https://docs.spring.io/spring-boot/reference/messaging/amqp.html)
+- [Spring AMQP reference](https://docs.spring.io/spring-amqp/reference/)
+- [RabbitMQ tutorials](https://www.rabbitmq.com/tutorials)
+- [Spring Cloud Stream](https://docs.spring.io/spring-cloud-stream/reference/)
+- [Transactional outbox pattern](https://microservices.io/patterns/data/transactional-outbox.html)

@@ -154,3 +154,10 @@ curl -X POST localhost:8080/actuator/loggers/com.example -H 'Content-Type: appli
 | Fields null in `@RequestBody` | Missing `@RequestBody`, JSON names mismatch, no setters/constructor for Jackson |
 | Checked exception didn't roll back | Default rollback only on unchecked; add `rollbackFor` |
 | Slow API | N+1 queries, missing index, no pagination, no timeouts, small/huge pool, OSIV |
+
+## Official docs for quick lookups
+
+- [Every Spring Boot property, with defaults](https://docs.spring.io/spring-boot/appendix/application-properties/index.html)
+- [List of starters](https://docs.spring.io/spring-boot/reference/using/build-systems.html)
+- [Actuator endpoints](https://docs.spring.io/spring-boot/reference/actuator/endpoints.html)
+- Per-topic links are in the "Official docs" section at the end of each chapter.

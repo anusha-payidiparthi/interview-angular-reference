@@ -277,3 +277,10 @@ Properties are bound at startup. To change config without a restart:
 12. **What's `@PropertySource`?**
     Adds a `.properties` file to the environment from a `@Configuration` class. Lower precedence
     than `application.*`; doesn't support YAML out of the box.
+
+## 11. Official docs
+
+- [Externalized configuration (precedence, YAML, `@ConfigurationProperties`, relaxed binding)](https://docs.spring.io/spring-boot/reference/features/external-config.html)
+- [Profiles](https://docs.spring.io/spring-boot/reference/features/profiles.html)
+- [Common application properties (full list)](https://docs.spring.io/spring-boot/appendix/application-properties/index.html)
+- [Spring Cloud Config](https://docs.spring.io/spring-cloud-config/reference/)

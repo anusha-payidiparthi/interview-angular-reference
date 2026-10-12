@@ -322,3 +322,14 @@ Bulkhead ( call ))))).
 14. **What is the strangler fig pattern?**
     Migrate a monolith incrementally by routing specific endpoints to new services through a
     gateway until the monolith can be retired.
+
+## 9. Official docs
+
+- [Spring Framework REST clients (`RestClient`, `WebClient`, HTTP interfaces)](https://docs.spring.io/spring-framework/reference/integration/rest-clients.html)
+- [Spring Boot: calling REST services](https://docs.spring.io/spring-boot/reference/io/rest-client.html)
+- [Spring Cloud project overview](https://spring.io/projects/spring-cloud/)
+- [Spring Cloud Gateway](https://docs.spring.io/spring-cloud-gateway/reference/)
+- [Spring Cloud Netflix (Eureka)](https://docs.spring.io/spring-cloud-netflix/reference/)
+- [Spring Cloud Config](https://docs.spring.io/spring-cloud-config/reference/)
+- [Spring Cloud Circuit Breaker](https://docs.spring.io/spring-cloud-circuitbreaker/reference/)
+- [Resilience4j](https://resilience4j.readme.io/docs/getting-started)

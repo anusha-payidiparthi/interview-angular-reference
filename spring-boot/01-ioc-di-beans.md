@@ -415,3 +415,16 @@ Covered in detail in [02](./02-auto-configuration-and-starters.md) and [03](./03
 20. **Spring singleton vs Singleton design pattern?**
     Spring: one instance per container per bean definition, managed by Spring. GoF: one instance per
     class loader enforced by the class itself.
+
+## 13. Official docs
+
+- [The IoC container](https://docs.spring.io/spring-framework/reference/core/beans.html) and its
+  [introduction](https://docs.spring.io/spring-framework/reference/core/beans/introduction.html)
+- [Dependency injection](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html)
+- [`@Autowired`, `@Primary` and qualifiers](https://docs.spring.io/spring-framework/reference/core/beans/annotation-config/autowired-qualifiers.html)
+- [Bean scopes](https://docs.spring.io/spring-framework/reference/core/beans/factory-scopes.html)
+- [Lifecycle callbacks (customizing the nature of a bean)](https://docs.spring.io/spring-framework/reference/core/beans/factory-nature.html)
+- [Container extension points (`BeanPostProcessor`, `BeanFactoryPostProcessor`)](https://docs.spring.io/spring-framework/reference/core/beans/factory-extension.html)
+- [Java-based configuration (`@Configuration`, `@Bean`)](https://docs.spring.io/spring-framework/reference/core/beans/java.html)
+- [`ApplicationContext` capabilities](https://docs.spring.io/spring-framework/reference/core/beans/context-introduction.html)
+- [Spring Boot: beans and dependency injection](https://docs.spring.io/spring-boot/reference/using/spring-beans-and-dependency-injection.html)

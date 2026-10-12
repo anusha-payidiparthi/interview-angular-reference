@@ -180,3 +180,16 @@ or JFR (Java Flight Recorder) for CPU/allocation hotspots, load test with Gatlin
 
 10. **How do you pass configuration to a containerized app?**
     Env vars (`SPRING_DATASOURCE_URL`), mounted ConfigMaps/Secrets (`configtree`), or a config server.
+
+## 9. Official docs
+
+- [Packaging Spring Boot applications](https://docs.spring.io/spring-boot/reference/packaging/index.html)
+- [The executable JAR format](https://docs.spring.io/spring-boot/specification/executable-jar/index.html)
+- [Efficient deployments (extracting the JAR)](https://docs.spring.io/spring-boot/reference/packaging/efficient.html)
+- [Container images (layering, Dockerfiles, buildpacks)](https://docs.spring.io/spring-boot/reference/packaging/container-images/index.html)
+- [AOT cache / Class Data Sharing](https://docs.spring.io/spring-boot/reference/packaging/aot-cache.html)
+- [GraalVM native images](https://docs.spring.io/spring-boot/reference/packaging/native-image/index.html)
+  and the [GraalVM native image manual](https://www.graalvm.org/latest/reference-manual/native-image/)
+- [Checkpoint and restore (CRaC)](https://docs.spring.io/spring-boot/reference/packaging/checkpoint-restore.html)
+- [Graceful shutdown](https://docs.spring.io/spring-boot/reference/web/graceful-shutdown.html)
+- [How-to: deploying to the cloud and Kubernetes](https://docs.spring.io/spring-boot/how-to/deployment/index.html)

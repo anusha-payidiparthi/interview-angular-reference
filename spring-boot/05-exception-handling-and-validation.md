@@ -287,3 +287,14 @@ whole object, or use a `@AssertTrue boolean isDateRangeValid()` method on the re
 13. **Should you return the exception message to the client?**
     Only for expected, safe business errors. For unexpected errors return a generic message plus a
     correlation ID, and log the details server-side.
+
+## 8. Official docs
+
+- [`@ExceptionHandler`](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-exceptionhandler.html)
+- [Controller advice](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-advice.html)
+- [Error responses and `ProblemDetail`](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-ann-rest-exceptions.html)
+- [RFC 9457: Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457)
+- [Validation in Spring MVC controllers](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-validation.html)
+- [Spring Framework: Bean Validation](https://docs.spring.io/spring-framework/reference/core/validation/beanvalidation.html)
+- [Spring Boot: validation](https://docs.spring.io/spring-boot/reference/io/validation.html)
+- [Jakarta Bean Validation specification](https://beanvalidation.org/)

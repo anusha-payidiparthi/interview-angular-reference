@@ -433,3 +433,14 @@ less often.
 17. **How do you handle long-running requests?**
     Return `202 Accepted` with a status URL and process asynchronously (queue/`@Async`), or use
     `CompletableFuture`/`DeferredResult`/SSE, or virtual threads for blocking I/O.
+
+## 16. Official docs
+
+- [Spring Web MVC reference](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
+- [`DispatcherServlet`](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-servlet.html)
+- [Request mapping](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-requestmapping.html)
+- [Interceptors](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/interceptors.html)
+- [CORS](https://docs.spring.io/spring-framework/reference/web/webmvc-cors.html)
+- [API versioning (Spring Framework 7)](https://docs.spring.io/spring-framework/reference/web/webmvc-versioning.html)
+- [Spring Boot: servlet web applications](https://docs.spring.io/spring-boot/reference/web/servlet.html)
+- [springdoc-openapi](https://springdoc.org/)

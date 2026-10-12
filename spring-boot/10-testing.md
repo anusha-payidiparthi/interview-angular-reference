@@ -285,3 +285,15 @@ Modulith's `ApplicationModules.of(App.class).verify()`.
 
 13. **How do you test secured endpoints?**
     `spring-security-test`: `@WithMockUser`, `with(jwt())`, `with(csrf())`.
+
+## 10. Official docs
+
+- [Spring Boot testing](https://docs.spring.io/spring-boot/reference/testing/index.html)
+- [Testing Spring Boot applications (slices, `@SpringBootTest`)](https://docs.spring.io/spring-boot/reference/testing/spring-boot-applications.html)
+- [Testcontainers and `@ServiceConnection`](https://docs.spring.io/spring-boot/reference/testing/testcontainers.html)
+- [Spring Framework testing](https://docs.spring.io/spring-framework/reference/testing.html)
+- [MockMvc](https://docs.spring.io/spring-framework/reference/testing/mockmvc.html)
+- [`@MockitoBean` and `@MockitoSpyBean`](https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-mockitobean.html)
+- [Test context caching](https://docs.spring.io/spring-framework/reference/testing/testcontext-framework/ctx-management/caching.html)
+- [JUnit user guide](https://docs.junit.org/current/user-guide/), [Mockito](https://site.mockito.org/),
+  [Testcontainers for Java](https://java.testcontainers.org/)

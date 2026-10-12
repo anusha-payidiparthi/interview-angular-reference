@@ -195,3 +195,10 @@ Spring AOP uses AspectJ's **annotations and pointcut language** but not its weav
 
 11. **Write a pointcut for all public methods in the service package.**
     `execution(public * com.example.service..*(..))`.
+
+## 10. Official docs
+
+- [Aspect-oriented programming with Spring](https://docs.spring.io/spring-framework/reference/core/aop.html)
+- [Declaring pointcuts](https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/pointcuts.html)
+- [Declaring advice](https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/advice.html)
+- [Proxying mechanisms (JDK vs CGLIB, self-invocation)](https://docs.spring.io/spring-framework/reference/core/aop/proxying.html)

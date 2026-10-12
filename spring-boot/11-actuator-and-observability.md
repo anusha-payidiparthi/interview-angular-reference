@@ -258,3 +258,14 @@ Log levels: `TRACE` < `DEBUG` < `INFO` < `WARN` < `ERROR`.
 12. **What's `logback-spring.xml` vs `logback.xml`?**
     The `-spring` variant is loaded by Boot after the environment is ready, so it supports Spring
     profiles and properties.
+
+## 9. Official docs
+
+- [Actuator (production-ready features)](https://docs.spring.io/spring-boot/reference/actuator/index.html)
+- [Actuator endpoints (health, probes, custom endpoints)](https://docs.spring.io/spring-boot/reference/actuator/endpoints.html)
+- [Metrics](https://docs.spring.io/spring-boot/reference/actuator/metrics.html)
+- [Tracing](https://docs.spring.io/spring-boot/reference/actuator/tracing.html)
+- [Logging (including structured logging)](https://docs.spring.io/spring-boot/reference/features/logging.html)
+- [Micrometer](https://docs.micrometer.io/micrometer/reference/) and
+  [Micrometer Tracing](https://docs.micrometer.io/tracing/reference/)
+- [Kubernetes liveness, readiness and startup probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)

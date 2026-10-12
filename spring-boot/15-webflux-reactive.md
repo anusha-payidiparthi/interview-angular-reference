@@ -212,3 +212,12 @@ class UserControllerTest {
 
 11. **How do you test reactive code?**
     `StepVerifier` for publishers, `WebTestClient` for endpoints, BlockHound to catch blocking calls.
+
+## 10. Official docs
+
+- [Spring WebFlux reference](https://docs.spring.io/spring-framework/reference/web/webflux.html)
+- [WebFlux overview (why reactive, MVC vs WebFlux)](https://docs.spring.io/spring-framework/reference/web/webflux/new-framework.html)
+- [Spring Boot: reactive web applications](https://docs.spring.io/spring-boot/reference/web/reactive.html)
+- [Project Reactor documentation](https://projectreactor.io/docs)
+- [Reactive Streams specification](https://www.reactive-streams.org/)
+- [Spring Data R2DBC](https://docs.spring.io/spring-data/relational/reference/r2dbc.html)

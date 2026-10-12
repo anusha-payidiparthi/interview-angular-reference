@@ -129,3 +129,12 @@ HTTP request
 6. **What is the latest version and what are the minimum requirements?**
    Boot 4.x on Spring Framework 7: Java 17 minimum (21/25 recommended), Jakarta EE 11 (Servlet 6.1).
    Boot 3.x: Java 17, Jakarta EE 10. Boot 2.x used `javax.*` and Java 8.
+
+## 6. Official docs
+
+- [Spring Boot reference (home)](https://docs.spring.io/spring-boot/index.html)
+- [Spring Framework overview](https://docs.spring.io/spring-framework/reference/overview.html)
+- [Developing with Spring Boot](https://docs.spring.io/spring-boot/reference/using/index.html)
+- [Structuring your code](https://docs.spring.io/spring-boot/reference/using/structuring-your-code.html)
+- [Spring Boot project page and support timeline](https://spring.io/projects/spring-boot/)
+- [All Spring projects (Spring Cloud and others)](https://spring.io/projects/spring-cloud/)

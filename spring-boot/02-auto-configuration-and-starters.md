@@ -329,3 +329,12 @@ connection properties automatically.
 15. **What is a `FailureAnalyzer`?**
     A component that turns startup exceptions into human-readable messages, e.g. "Port 8080 was
     already in use. Action: identify and stop the process…".
+
+## 10. Official docs
+
+- [Auto-configuration (using it, replacing it, disabling it)](https://docs.spring.io/spring-boot/reference/using/auto-configuration.html)
+- [Creating your own auto-configuration and starters](https://docs.spring.io/spring-boot/reference/features/developing-auto-configuration.html)
+- [Build systems, dependency management and the list of starters](https://docs.spring.io/spring-boot/reference/using/build-systems.html)
+- [`SpringApplication` (startup, events, runners, failure analyzers)](https://docs.spring.io/spring-boot/reference/features/spring-application.html)
+- [Embedded servlet web servers](https://docs.spring.io/spring-boot/reference/web/servlet.html)
+- [Developer tools (DevTools)](https://docs.spring.io/spring-boot/reference/using/devtools.html)

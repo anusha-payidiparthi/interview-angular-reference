@@ -297,3 +297,13 @@ class OrderEmailer {
 15. **Does `@Transactional` work with `@Async`?**
     Each async method runs on a different thread, so it doesn't join the caller's transaction. It can
     start its own if annotated with `@Transactional` itself.
+
+## 13. Official docs
+
+- [Transaction management overview](https://docs.spring.io/spring-framework/reference/data-access/transaction.html)
+- [Using `@Transactional` (including the proxy/self-invocation note)](https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/annotations.html)
+- [Transaction propagation](https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/tx-propagation.html)
+- [Rolling back a declarative transaction](https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/rolling-back.html)
+- [Programmatic transaction management](https://docs.spring.io/spring-framework/reference/data-access/transaction/programmatic.html)
+- [Transaction-bound events](https://docs.spring.io/spring-framework/reference/data-access/transaction/event.html)
+- [Spring Data JPA: transactionality](https://docs.spring.io/spring-data/jpa/reference/jpa/transactions.html)
